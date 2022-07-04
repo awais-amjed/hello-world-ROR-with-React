@@ -1,5 +1,5 @@
 class RandomGreetingApi {
-  static baseURL = 'http://localhost:3000/random_greeting';
+  static baseURL = '/random_greeting';
 
   static getRandomGreeting = async () => fetch(this.baseURL, {
     method: 'GET',
