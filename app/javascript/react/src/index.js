@@ -1,4 +1,4 @@
 import { define } from 'remount'
-import Hello from "./components/Hello"
+import App from "./components/App"
 
-define({ 'react-app': Hello })
+define({ 'react-app': App })
