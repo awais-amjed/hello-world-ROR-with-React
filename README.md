@@ -1,24 +1,64 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello World ROR with React
 
-Things you may want to cover:
+> Practice app to use React and Redux with Rails
 
-* Ruby version
+Created while learning Ruby on Rails, it's an app with backend and frontend as one unit - Front end created with React and Redux and backed with Ruby on Rails.
 
-* System dependencies
+## Built with
 
-* Configuration
+- Ruby
+- Rails
+- React
+- Redux
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby
+- Rails
+- Postgresql
 
-* Deployment instructions
+### Setup
 
-* ...
+- Clone the Repository
+- Go to the project directory
+- Run ```bundle install```
+- Run ```rails db:create```
+- Run ```rails db:migrate```
+- Run ```rails db:seed``` to populate database
+- Run ```npm install``` to install React and Redux
+- Run ```yarn build``` to generate necessary javascript code
+
+### Usage
+
+- Run ```rails s``` to run the app
+
+## Authors
+
+👤 **Awais Amjed**
+
+- GitHub: [@awais-amjed](https://github.com/awais-amjed)
+- LinkedIn: [@awais-amjed](https://www.linkedin.com/in/awais-amjed/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
