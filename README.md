@@ -31,6 +31,7 @@ To get a local copy up and running follow these simple example steps.
 - Run ```rails db:create```
 - Run ```rails db:migrate```
 - Run ```rails db:seed``` to populate database
+- Run ```npm install``` to install React and Redux
 - Run ```yarn build``` to generate necessary javascript code
 
 ### Usage
